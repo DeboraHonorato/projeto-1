@@ -1,0 +1,140 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-img {
+  width: 568px;
+  height: 500px;
+}
+
+header {
+  margin: 24px 0 144px 36px;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989d9c;
+  cursor: pointer;
+  margin-right: 23px;
+}
+
+.botao-login {
+  width: 130px;
+  height: 41px;
+  background-color: #665ae1;
+  color: #ffffff;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.caixa-logo {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+.caixa-texto {
+    display: inline-block;
+    margin-left: 150px;
+   
+}
+
+h1{
+    color: #515151;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+}
+
+h2{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.botao-explore{
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ADFF00;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+@media(max-width:760px){
+
+  body{
+    padding: 20px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caixa-texto {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caixa-logo{
+    margin-left: 0;
+  }
+
+  header{
+    display: none;
+  }
+
+  p{
+    display: none;
+  }
+
+  .logo-img{
+    Width: 100%;
+    Height: auto;
+    margin-top: 100px;
+  }
+
+  h1{
+    font-size: 50px;
+    line-height: 70px;
+  }
+  
+  h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+.botao-explore{
+   margin-top: 10px; 
+   Width: 230px;
+   Height: 60px;
+   font-size: 18px;
+  }
+}
